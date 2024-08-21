@@ -1,0 +1,32 @@
+$bg    :  #fafafa;
+$text  :  #212529;
+$text-header     :   #27226c;
+*{
+    box-sizing: border-box;
+}
+[lang="fa-IR"]{
+    direction: rtl !important;
+}
+body{
+ 
+margin: 0;
+padding: 0;
+font-family: estedad;
+a{
+    text-decoration: none;
+  color: $text-header;  
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    li{
+        list-style: none;
+    }
+}
+font-weight: 300;
+    background-color:$bg ;
+color:$text ;
+font-size: 1rem;
+}
